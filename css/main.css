@@ -14,6 +14,11 @@ body {
           box-sizing: border-box;
 }
 
+button {
+  outline: none;
+  border: none;
+}
+
 body {
   color: #1b1839;
   font-family: 'Merriweather', sans-serif;
@@ -23,6 +28,16 @@ body {
 .navigation {
   font-family: 'Muli';
   font-size: 1.6rem;
+  height: 12vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .navigation-items {
@@ -36,7 +51,6 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin-right: 4rem;
-  height: 11rem;
   list-style: none;
 }
 
@@ -56,30 +70,103 @@ body {
 
 .landing {
   font-family: 'Merriweather';
+  color: #fff;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 129, 141, 0.37)), to(rgba(0, 129, 141, 0.37))), url("/bg-1134.png") no-repeat left fixed;
+  background: linear-gradient(rgba(0, 129, 141, 0.37), rgba(0, 129, 141, 0.37)), url("/bg-1134.png") no-repeat left fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .landing-header {
+  width: 65%;
+  margin-bottom: 15rem;
+}
+
+.landing-header--title {
   font-size: 4.2rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 5.8rem;
+  width: 40%;
+  margin-bottom: 3rem;
 }
 
 .landing-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  font-family: 'Muli';
+  -webkit-box-shadow: 0px 12px 18px rgba(0, 98, 131, 0.869728);
+          box-shadow: 0px 12px 18px rgba(0, 98, 131, 0.869728);
+}
+
+.landing-input--search {
+  width: 90%;
+  padding: 3rem 4rem;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  outline: none;
+  font-family: inherit;
   font-size: 1.8rem;
 }
 
-.landing-search-button {
+.landing-input--search-button {
+  width: 15%;
+  background-color: #f89259;
+  color: #fff;
+  outline: none;
+  border-radius: 0px 5px 5px 0px;
+  font-family: inherit;
   font-size: 1.6rem;
-  font-family: 'Muli';
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+  height: 22rem;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+
+.footer-card {
+  width: 33%;
+  padding: 2.5rem;
 }
 
 .footer-card--header {
   font-size: 2.6rem;
   color: #1b1839;
+  margin-bottom: 1rem;
+  width: 75%;
 }
 
 .footer-card--pricing {
   font-family: 'Muli';
   font-size: 1.8rem;
   color: #5f5d74;
+  margin-bottom: 0.5rem;
 }
 
 .footer-card--span {

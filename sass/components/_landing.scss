@@ -1,16 +1,54 @@
 .landing {
 	font-family: 'Merriweather';
+	color: #fff;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 129, 141, 0.37), rgba(0, 129, 141, 0.37)),
+		url('/bg-1134.png') no-repeat left fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
 
 	&-header {
-		font-size: 4.2rem;
+		width: 65%;
+		margin-bottom: 15rem;
+
+		&--title {
+			font-size: 4.2rem;
+			font-style: normal;
+			font-weight: bold;
+			line-height: 5.8rem;
+			width: 40%;
+			margin-bottom: 3rem;
+		}
 	}
 
 	&-input {
-		font-size: 1.8rem;
-	}
-
-	&-search-button {
-		font-size: 1.6rem;
+		display: flex;
+		width: 80%;
 		font-family: 'Muli';
+		box-shadow: 0px 12px 18px rgba(0, 98, 131, 0.869728);
+
+		&--search {
+			width: 90%;
+			padding: 3rem 4rem;
+			border-radius: 5px 0px 0px 5px;
+			border: none;
+			outline: none;
+
+			font-family: inherit;
+			font-size: 1.8rem;
+
+			&-button {
+				width: 15%;
+				background-color: $search;
+				color: #fff;
+				outline: none;
+				border-radius: 0px 5px 5px 0px;
+
+				font-family: inherit;
+				font-size: 1.6rem;
+			}
+		}
 	}
 }

@@ -1,20 +1,39 @@
 .footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	height: 22rem;
+
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 1.5rem;
+
 	&-card {
+		width: 33%;
+		padding: 2.5rem;
+
 		&--header {
 			font-size: 2.6rem;
 			color: $color-primary;
+			margin-bottom: 1rem;
+			width: 75%;
 		}
 
 		&--pricing {
 			font-family: 'Muli';
 			font-size: 1.8rem;
 			color: $color-secondary;
+			margin-bottom: 0.5rem;
 		}
 
 		&--span {
 			font-family: 'Muli';
 			font-size: 1.6rem;
 			color: $color-tertiary;
+
+			&-text {
+			}
 		}
 	}
 }
