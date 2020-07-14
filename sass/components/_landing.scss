@@ -1,3 +1,16 @@
 .landing {
 	font-family: 'Merriweather';
+
+	&-header {
+		font-size: 4.2rem;
+	}
+
+	&-input {
+		font-size: 1.8rem;
+	}
+
+	&-search-button {
+		font-size: 1.6rem;
+		font-family: 'Muli';
+	}
 }

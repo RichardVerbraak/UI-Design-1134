@@ -5,16 +5,86 @@
   padding: 0;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
+body {
+  color: #1b1839;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 1.6rem;
+}
+
 .navigation {
   font-family: 'Muli';
+  font-size: 1.6rem;
+}
+
+.navigation-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 4rem;
+  height: 11rem;
+  list-style: none;
+}
+
+.navigation-items--item {
+  padding: 4rem;
+}
+
+.navigation-signup {
+  font-family: 'Muli';
+  color: #fff;
+  background-color: #35c2cf;
+  border-radius: 5%;
+  border: none;
+  width: 14rem;
+  height: 8rem;
 }
 
 .landing {
   font-family: 'Merriweather';
+}
+
+.landing-header {
+  font-size: 4.2rem;
+}
+
+.landing-input {
+  font-size: 1.8rem;
+}
+
+.landing-search-button {
+  font-size: 1.6rem;
+  font-family: 'Muli';
+}
+
+.footer-card--header {
+  font-size: 2.6rem;
+  color: #1b1839;
+}
+
+.footer-card--pricing {
+  font-family: 'Muli';
+  font-size: 1.8rem;
+  color: #5f5d74;
+}
+
+.footer-card--span {
+  font-family: 'Muli';
+  font-size: 1.6rem;
+  color: #6e6c81;
 }
 /*# sourceMappingURL=main.css.map */

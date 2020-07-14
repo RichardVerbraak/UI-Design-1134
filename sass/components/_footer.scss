@@ -1,0 +1,20 @@
+.footer {
+	&-card {
+		&--header {
+			font-size: 2.6rem;
+			color: $color-primary;
+		}
+
+		&--pricing {
+			font-family: 'Muli';
+			font-size: 1.8rem;
+			color: $color-secondary;
+		}
+
+		&--span {
+			font-family: 'Muli';
+			font-size: 1.6rem;
+			color: $color-tertiary;
+		}
+	}
+}

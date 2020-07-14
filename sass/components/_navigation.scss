@@ -1,3 +1,27 @@
 .navigation {
 	font-family: 'Muli';
+	font-size: 1.6rem;
+
+	&-items {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		margin-right: 4rem;
+		height: 11rem;
+		list-style: none;
+
+		&--item {
+			padding: 4rem;
+		}
+	}
+
+	&-signup {
+		font-family: 'Muli';
+		color: #fff;
+		background-color: $sign-up;
+		border-radius: 5%;
+		border: none;
+		width: 14rem;
+		height: 8rem;
+	}
 }
