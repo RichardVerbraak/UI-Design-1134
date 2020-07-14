@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navigation {
+  font-family: 'Muli';
+}
+
+.landing {
+  font-family: 'Merriweather';
+}
+/*# sourceMappingURL=main.css.map */

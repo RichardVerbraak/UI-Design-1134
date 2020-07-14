@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,CAAC;AACD,CAAC,AAAA,QAAQ;AACT,CAAC,AAAA,OAAO,CAAC;EACR,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACV;;AAED,AAAA,IAAI,CAAC;EACJ,UAAU,EAAE,UAAU;CACtB;;AETD,AAAA,WAAW,CAAC;EACX,WAAW,EAAE,MAAM;CACnB;;ACFD,AAAA,QAAQ,CAAC;EACR,WAAW,EAAE,cAAc;CAC3B",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/abstracts/_variables.scss",
+        "../sass/base/_base.scss",
+        "../sass/base/_typography.scss",
+        "../sass/components/_navigation.scss",
+        "../sass/components/_landing.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
